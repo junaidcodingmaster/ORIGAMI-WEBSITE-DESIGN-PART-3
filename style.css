@@ -1,0 +1,586 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -70%);
+  text-align: left;
+}
+
+.centered h1{
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 5px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+.navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.navigator li {
+    float: left;
+}
+  
+.navigator li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navigator li {
+    background-color: #111;
+}
+  
+.navigator a:hover:not(.active){
+    background-color: #505050;
+}
+
+.active {
+    background-color: #0528c7;
+}
+
+
+hr{
+   border-width:0;
+   background-color:black;
+   height:3px;
+}
+
+.totorial{
+    text-align: left;
+    border-radius: 20px;
+    transform: translate(5%, 0%);
+    width: 960px;
+
+}
+
+.totorial img{
+    height: 100px;
+    width: 100px;
+}
+
+.totorial h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.camel{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightblue;
+}
+
+.chameleon{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightgreen;
+}
+
+.pigeon{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 30%);
+    background-color: lightblue;
+}
+
+.teddy{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightpink;
+}
+
+.flying-cicada{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: rgb(255, 193, 78);
+
+}
+
+.panda{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightseagreen;
+
+}
+
+.puppy{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightskyblue;
+}
+
+.about-puppy{
+    height: 250px;
+    background-color: lightskyblue;
+}
+
+.puppy-facts{
+    transform: translate(30% , -75% );
+    width: 600px;
+}
+
+.puppy-facts h3{
+    text-decoration: underline;
+}
+
+.frog{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: lightgreen;
+}
+
+.about-frog{
+    height: 250px;
+    background-color: lightgreen;
+}
+
+.frog-facts{
+    transform: translate(30% , -75% );
+    width: 600px;
+}
+
+.frog-facts h3{
+    text-decoration: underline;
+}
+
+.parrot{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(5%, 25%);
+    background-color: rgb(220, 132, 132);
+}
+
+.about-parrot{
+    height: 250px;
+    background-color: rgb(220, 132, 132);
+}
+
+.parrot-facts{
+    transform: translate(30% , -75% );
+    width: 600px;
+}
+
+.parrot-facts h3{
+    text-decoration: underline;
+}
+
+
+.about-camel{
+    height: 250px;
+    background-color: lightblue;
+}
+
+.camel-facts{
+    transform: translate(30% , -90% );
+    width: 600px;
+
+}
+
+.camel-facts h3{
+    text-decoration: underline;
+}
+
+.about-chameleon{
+    height: 250px;
+    background-color: lightgreen;
+}
+
+.chameleon-facts{
+    transform: translate(30% , -80% );
+    width: 600px;
+}
+
+.chameleon-facts h3{
+    text-decoration: underline;
+}
+
+.about-pigeon{
+    height: 300px;
+    background-color: lightblue;
+}
+
+.pigeon-facts{
+    transform: translate(30% , -50% );
+    width: 600px;
+}
+
+.pigeon-facts h3{
+    text-decoration: underline;
+}
+
+.about-teddy{
+    height: 250px;
+    background-color: lightpink;
+}
+
+.teddy-facts{
+    transform: translate(30% , -65% );
+    width: 600px;
+
+}
+
+.teddy-facts h3{
+    text-decoration: underline;
+}
+
+.about-panda{
+    height: 250px;
+    background-color: lightseagreen;
+}
+
+.panda-facts{
+    transform: translate(30% , -65% );
+    width: 600px;
+
+}
+
+.panda-facts h3{
+    text-decoration: underline;
+}
+
+.about-flying-cicada{
+    height: 250px;
+    background-color: rgb(255, 193, 78);
+}
+
+.flying-cicada-facts{
+    transform: translate(30% , -75% );
+    width: 600px;
+}
+
+.flying-cicada-facts h3{
+    text-decoration: underline;
+}
+
+#facebook{
+    color: #000000;
+}
+
+#instagram{
+    color: #000000;
+}
+
+#twitter{
+    color: #000000;
+}
+
+#facebook:hover{
+    color: rgb(32, 32, 255);
+}
+
+#twitter:hover{
+    color: rgb(42, 178, 231);
+}
+
+#instagram:hover {
+    background-image: url(https://i.ibb.co/jfZSz9D/image-removebg-preview.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.soial-media-links{
+    word-spacing: 10px;
+    color: white;
+}
+
+.popular{
+    text-align: left;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.popular h2{
+    text-align: center;
+}
+
+
+.post-1{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(30%, 0%);
+    background-color: skyblue;
+}
+.post-1 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+}
+.post-1 p{
+    transform: translate(0%, 50%);
+}
+
+
+.post-2{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(140%, -100%);
+    background-color: lightgreen;
+}
+
+.post-2 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+}
+
+.post-2 p{
+    transform: translate(0%, 10%);
+}
+
+
+.post-3{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(250%, -200%);
+    background-color: lightpink;
+}
+
+.post-3 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+    
+}
+
+.post-3 p{
+    transform: translate(0%, 10%);
+}
+
+
+.post-4{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(360%, -300%);
+    background-color: rgb(255, 193, 78);
+}
+
+.post-4 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+    
+}
+
+.post-4 p{
+    transform: translate(0%, 10%);
+}
+
+
+.post-5{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(30%, -290%);
+    background-color: lightseagreen;
+}
+
+.post-5 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+    
+}
+
+.post-5 p{
+    transform: translate(0%, 10%);
+}
+
+
+.post-6{
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    transform: translate(140%, -390%);
+    background-color: lightskyblue;
+}
+
+.post-6 p{
+    transform: translate(0%, 50%);
+}
+
+
+.post-6 img{
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+    
+}
+
+.styleLine{
+    width: 250px;
+    background-color: rgb(0, 183, 255);
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.footer{
+    height: 400px;
+    text-align: center;
+}
+
+.footer-soial-media-links{
+    word-spacing: 50px;
+    color: white;
+}
+
+.footer p{
+    font-size: 30px;
+}
+
+.totorial a{
+    color: #000000;
+}
+
+.totorial a:hover{
+    color:  blue;
+}
+
+.popular a{
+    color: #000000;
+}
+
+.popular a:hover{
+    color:  blue;
+}
+
+a{
+    color: #000000;
+}
+
+.get-started{
+    transform: translate(650%, -400%);
+    width: 120px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.button{
+    text-align: center;
+    height: 50px;
+    border-radius: 50px;
+    width: 120px;
+    background-color: #0462c0;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+
+}
+
+.follow-us-social-media{
+    transform: translate(0%, 100%);
+}
+
+.follow-us-social-media p{
+    text-decoration: underline;
+}
